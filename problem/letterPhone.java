@@ -1,4 +1,4 @@
-package problem;
+
 import java.util.*;
 
 class Solution {
