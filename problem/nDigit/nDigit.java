@@ -1,4 +1,4 @@
-package problem.nDigit;
+package nDigit;
 
 import java.util.*;
 
@@ -6,6 +6,7 @@ public class nDigit{
 	public static void main(String args[]){
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
+		sc.close();
 		ArrayList<ArrayList<Integer>> ans = new ArrayList<>();
 		ArrayList<Integer> currList = new ArrayList<>();
 		

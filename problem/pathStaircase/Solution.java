@@ -1,4 +1,4 @@
-package problem.pathStaircase;
+package pathStaircase;
 import java.util.*;
 
 public class Solution {

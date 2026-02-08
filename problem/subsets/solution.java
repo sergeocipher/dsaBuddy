@@ -1,4 +1,4 @@
-package problem.subsets;
+package subsets;
 
 import java.util.*;
 class Solution {
@@ -30,6 +30,7 @@ class Solution {
         for (int i = 0 ; i < t ; i++){
             arr[i] = sc.nextInt();
         }
+        sc.close();
 
         List<List<Integer>> ans = subsets(arr);
         print(ans);

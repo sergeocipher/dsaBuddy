@@ -1,4 +1,4 @@
-package problem.subsets;
+package subsets;
 
 public class Solution1 {
     public int SubsetSum(int[] A, int B) {
