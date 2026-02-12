@@ -20,3 +20,8 @@ class combination {
        
     }
 }
+
+// O(C(n, k) · k) tiem complexity 
+// O(k) space complexity excluding output 
+
+// This is a standard backtracking problem where we generate combinations by advancing the start index. The complexity is output-bound: O(C(n, k) · k), with optional pruning to reduce useless recursion.
